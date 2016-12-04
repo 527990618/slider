@@ -1,0 +1,23 @@
+.clearfix{
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+.slider-container{
+	height: 400px;
+}
+.m-slider{
+	position: relative;
+	height: 100%;
+}
+.m-slider .slider{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.m-slider .slider>img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center center;
+}
